@@ -1,0 +1,11 @@
+----------------------------------------------------------------
+10-09-2009
+
+The program which is copied from melcepst.m to melcepst_editedbysvg.m. Then melcepst_editedbysvg.m is used to debug and understand the process of MFCC extraction. 
+
+General syntax of the program:
+function [c]=melcepst(s,fs,w,nc,p,n,inc,fl,fh)
+
+
+>> [s,fs]=readsph('sa1.sph');
+>> [c]=melcepst_editedbysvg(s,fs,'Me',12,26,320,160,0,0.5);
